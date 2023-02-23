@@ -331,6 +331,12 @@ html {
 }
 
 @media screen and (max-width:800px){
+    
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
     .habilidades .contenido-seccion .fila {
         display: block;
     }
