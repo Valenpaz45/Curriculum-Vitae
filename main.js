@@ -52,10 +52,10 @@ function efectoHabilidades(){
             pintarBarra(html, 9, 0, intervalHtml);
         },100);
         const intervalCss = setInterval(function(){
-            pintarBarra(css, 6, 1, intervalCss);
+            pintarBarra(css, 5, 1, intervalCss);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 4, 2, intervalJavascript);
+            pintarBarra(javascript, 3, 2, intervalJavascript);
         },100);
         const intervalPC = setInterval(function(){
             pintarBarra(pc, 16, 3, intervalPC);
